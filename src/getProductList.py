@@ -3,37 +3,14 @@ import re
 from pymongo import MongoClient
 import requests
 from bs4 import BeautifulSoup
-import logging
 import json
-
-import sys     
-def progressBar(num=1, total=100, bar_word=".", sep= 1 ):
-    stars=('-','\\','|','/')
-    rate = int(float(num) / float(total)*1000)
-    if rate % sep == 0:
-        sys.stdout.write(str(rate/10.0)+'%  '+stars[(rate / sep) % len(stars)]+"\r")
-        sys.stdout.flush()
- 
-    
+from logHelp import setLog, progressBar
+  
 tableRule=re.compile(r'<table.*?class="Ptable".*?<\/table>',re.S)
 URL='http://list.jd.com/9987-653-655-0-0-0-0-0-0-0-1-5-%s-1-19-1601-3633-0.html'
 priceUrl = 'http://p.3.cn/prices/mgets?skuIds=%s&type=1'
 
-def setLog(level=logging.INFO,logfile='../log.txt'):
-
-    logging.basicConfig(
-                format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-                datefmt='%a, %d %b %Y %H:%M:%S',
-                )
-    logger = logging.getLogger()
-    handler = logging.FileHandler(logfile)
-    logger.addHandler(handler)
-    console = logging.StreamHandler()
-    #logger.addHandler(console)
-    logger.setLevel(level)
-    return logger
-
-logger = setLog(level=logging.ERROR)
+logger = setLog('INFO')
 logger.debug('log level, %d' %(logger.level))
 
 def getPageNum(no=1):
@@ -109,12 +86,14 @@ for page in range(totalPages):
                 if dbProductList.find({u'sku':product['sku']}).count() >0:
                     logger.debug('%s exist,skip' %(product['sku']))
                     continue   
-                dbProductList.insert()   
+                dbProductList.insert(product)
+            except (KeyboardInterrupt, SystemExit), e:
+                logger.critical("app is interrupted, finished pages:%d, sku:%s" %(page,product['sku']))   
             except Exception, e:
                 logger.exception("error in Page:%d, skuid:%s, reason:%s" %(page, product['sku'], str(e)))
                 continue            
         updatePrice(skuLists)
-    except:
+    except Exception,e:
         logger.exception("error in Page:%d, reason:%s" %(page,str(e)))
 
         
