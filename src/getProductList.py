@@ -1,15 +1,13 @@
-import time
 import re
-from pymongo import MongoClient
+
 import requests
 from bs4 import BeautifulSoup
 import json
-from logHelp import setLog, progressBar
+from myHelper import setLog, progressBar,openTable
   
 tableRule=re.compile(r'<table.*?class="Ptable".*?<\/table>',re.S)
 URL='http://list.jd.com/9987-653-655-0-0-0-0-0-0-0-1-5-%s-1-19-1601-3633-0.html'
 priceUrl = 'http://p.3.cn/prices/mgets?skuIds=%s&type=1'
-
 logger = setLog('INFO')
 logger.debug('log level, %d' %(logger.level))
 
@@ -34,15 +32,11 @@ def updatePrice(skuLists):
             dbProductList.update({'sku':price['id'].replace('J_','')},{'$set':{'price':price['p']}})  
     return True
     
-
-
-
 def getProductDetail(url):
     productDetail = {}
     if not url:
         return productDetail
     r = session.get(url)
-    logger.info('finish getting %s' %(url))
     table = re.findall(tableRule,r.text)[0]
     if not table:
         return productDetail
@@ -53,21 +47,14 @@ def getProductDetail(url):
             product[tr('td')[0].text.replace('.','')] = tr('td')[1].text
     return productDetail
     
-        
-    
-    
  
 
-con = MongoClient()
-db = con['shouji']
-dbProductList = db['productList']
-
-startT = time.time()
+ 
+dbProductList = openTable(dbName='shouji',tableName='prodcutList')
 session = requests.Session()
 totalPages=getPageNum() 
 
 rule = re.compile(r'id=\"plist\".*?>(.*?)<\/div>\s+<script',re.S)
-
 for page in range(totalPages):
     try:
         progressBar(page,totalPages)
@@ -87,12 +74,14 @@ for page in range(totalPages):
                     logger.debug('%s exist,skip' %(product['sku']))
                     continue   
                 dbProductList.insert(product)
-            except (KeyboardInterrupt, SystemExit), e:
-                logger.critical("app is interrupted, finished pages:%d, sku:%s" %(page,product['sku']))   
             except Exception, e:
                 logger.exception("error in Page:%d, skuid:%s, reason:%s" %(page, product['sku'], str(e)))
                 continue            
         updatePrice(skuLists)
+
+    except (KeyboardInterrupt, SystemExit), e:
+        logger.critical("app is interrupted, finished pages:%d" %(page))
+        break
     except Exception,e:
         logger.exception("error in Page:%d, reason:%s" %(page,str(e)))
 

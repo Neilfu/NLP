@@ -1,5 +1,6 @@
 import sys     
 import logging
+from pymongo import MongoClient
 
 LEVELS={'DEBUG':logging.DEBUG,
         'INFO':logging.INFO,
@@ -29,3 +30,7 @@ def progressBar(num=1, total=100, bar_word=".", sep= 1 ):
         sys.stdout.write(str(rate/10.0)+'%  '+stars[(rate / sep) % len(stars)]+"\r")
         sys.stdout.flush() 
         
+def openTable(dbName='shouji',tableName='prodcutList'):       
+    con = MongoClient()
+    db = con[dbName]
+    return db[tableName]    

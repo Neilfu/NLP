@@ -1,10 +1,9 @@
-import time
+#!/usr/bin/python  
+#coding=gbk
 import re
-from pymongo import MongoClient
 import requests
 from bs4 import BeautifulSoup
-import json
-from logHelp import setLog
+from myHelper import setLog,openTable
 
 logger = setLog('INFO')
 logger.debug('log level, %d' %(logger.level))
@@ -26,4 +25,13 @@ def getCommentPages(url):
     finally:
         return pages
 
-pages = getCommentPages(URL)
+
+tblProductList = openTable(dbName='shouji',tableName='productList')
+for product in tblProductList.find({u'²Ù×÷ÏµÍ³':{'$regex':'android'}}):
+    print product['url']
+    
+
+
+    
+
+#pages = getCommentPages(URL)
