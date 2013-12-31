@@ -26,9 +26,8 @@ def setLog(strLevel='INFO',logfile='../log.txt'):
 def progressBar(num=1, total=100, bar_word=".", sep= 1 ):
     stars=('-','\\','|','/')
     rate = int(float(num) / float(total)*1000)
-    if rate % sep == 0:
-        sys.stdout.write(str(rate/10.0)+'%  '+stars[(rate / sep) % len(stars)]+"\r")
-        sys.stdout.flush() 
+    sys.stdout.write(str(rate/10.0)+'%  '+stars[(rate / sep) % len(stars)]+"\r")
+    sys.stdout.flush() 
         
 def openTable(dbName='shouji',tableName='prodcutList'):       
     con = MongoClient()

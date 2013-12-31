@@ -1,0 +1,2075 @@
+error in Page:0, skuid:1069576972, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069576973, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069570378, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069570379, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069557937, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069302091, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069302092, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069259188, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069249590, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069247743, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1032982, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1032989, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069139845, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069139846, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069129315, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069129316, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069129317, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069129318, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1069129319, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1068383998, reason:insert() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 112, in <module>
+    dbProductList.insert()
+TypeError: insert() takes at least 2 arguments (1 given)
+error in Page:0, skuid:1032049, reason:list index out of range
+Traceback (most recent call last):
+  File "getProductList.py", line 108, in <module>
+    product.update(getProductDetail(product['url']))
+  File "getProductList.py", line 69, in getProductDetail
+    table = re.findall(tableRule,r.text)[0]
+IndexError: list index out of range
+error in Page:12, reason:list index out of range
+Traceback (most recent call last):
+  File "getProductList.py", line 97, in <module>
+    r = session.get(URL %(page+1))
+  File "C:\Python27\Lib\site-packages\requests\sessions.py", line 310, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Python27\Lib\site-packages\requests\sessions.py", line 279, in request
+    resp = self.send(prep, stream=stream, timeout=timeout, verify=verify, cert=cert, proxies=proxies)
+  File "C:\Python27\Lib\site-packages\requests\sessions.py", line 374, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\Lib\site-packages\requests\adapters.py", line 209, in send
+    raise ConnectionError(e)
+ConnectionError: HTTPConnectionPool(host='list.jd.com', port=80): Max retries exceeded with url: /9987-653-655-0-0-0-0-0-0-0-1-5-13-1-19-1601-3633-0.html (Caused by <class 'socket.error'>: [Errno 10054] )
+error in Page:13, reason:list index out of range
+Traceback (most recent call last):
+  File "getProductList.py", line 116, in <module>
+    updatePrice(skuLists)
+  File "getProductList.py", line 51, in updatePrice
+    r = session.get(priceUrl %(strSku))
+  File "C:\Python27\Lib\site-packages\requests\sessions.py", line 310, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Python27\Lib\site-packages\requests\sessions.py", line 279, in request
+    resp = self.send(prep, stream=stream, timeout=timeout, verify=verify, cert=cert, proxies=proxies)
+  File "C:\Python27\Lib\site-packages\requests\sessions.py", line 374, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\Lib\site-packages\requests\adapters.py", line 209, in send
+    raise ConnectionError(e)
+ConnectionError: HTTPConnectionPool(host='p.3.cn', port=80): Max retries exceeded with url: /prices/mgets?skuIds=1021595,J_1061970756,J_1061962315,J_1061936329,J_1061936330,J_1061936331,J_1061936332,J_1021090,J_1061895184,J_1061867313,J_1020895,J_1061824056,J_1061795005,J_1061614940,J_1061613210,J_1061613211,J_1061602358,J_1061602359,J_1061602360,J_1061601923,J_1061601924,J_1061272643,J_1061272644,J_1061207467,J_1061148222,J_1061148220,J_1061148221,J_1061095675,J_1061095237,J_1060975187,J_1020342,J_1060928291,J_1060928289,J_1060928290,J_1060928288,J_1020181&type=1 (Caused by <class 'httplib.BadStatusLine'>: '')
+error in Page:51, reason:list index out of range
+Traceback (most recent call last):
+  File "getProductList.py", line 100, in <module>
+    soup = BeautifulSoup(listUls[0])
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 31, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 31, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+global name 'BeautifulSoup' is not defined
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 19, in getCommentPages
+    soup = BeautifulSoup(listUrls)
+NameError: global name 'BeautifulSoup' is not defined
+global name 'BeautifulSoup' is not defined
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 19, in getCommentPages
+    soup = BeautifulSoup(listUrls)
+NameError: global name 'BeautifulSoup' is not defined
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 21, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): list.jd.com
+Starting new HTTP connection (1): item.jd.com
+finish getting http://item.jd.com/1069973252.html
+Starting new HTTP connection (2): item.jd.com
+finish getting http://item.jd.com/1069973253.html
+Starting new HTTP connection (3): item.jd.com
+finish getting http://item.jd.com/1069961808.html
+Starting new HTTP connection (4): item.jd.com
+finish getting http://item.jd.com/1069917738.html
+Starting new HTTP connection (5): item.jd.com
+finish getting http://item.jd.com/1069917739.html
+Starting new HTTP connection (6): item.jd.com
+finish getting http://item.jd.com/1069917740.html
+Starting new HTTP connection (7): item.jd.com
+finish getting http://item.jd.com/1069576972.html
+Starting new HTTP connection (8): item.jd.com
+finish getting http://item.jd.com/1069576973.html
+Starting new HTTP connection (9): item.jd.com
+finish getting http://item.jd.com/1069570378.html
+Starting new HTTP connection (10): item.jd.com
+finish getting http://item.jd.com/1069570379.html
+Starting new HTTP connection (11): item.jd.com
+finish getting http://item.jd.com/1069557937.html
+Starting new HTTP connection (12): item.jd.com
+finish getting http://item.jd.com/1069302091.html
+Starting new HTTP connection (13): item.jd.com
+finish getting http://item.jd.com/1069302092.html
+finish getting http://item.jd.com/1069259188.html
+Starting new HTTP connection (14): item.jd.com
+finish getting http://item.jd.com/1069249590.html
+Starting new HTTP connection (15): item.jd.com
+finish getting http://item.jd.com/1069247743.html
+Starting new HTTP connection (16): item.jd.com
+finish getting http://item.jd.com/1032982.html
+finish getting http://item.jd.com/1032989.html
+finish getting http://item.jd.com/1069139845.html
+Starting new HTTP connection (17): item.jd.com
+finish getting http://item.jd.com/1069139846.html
+Starting new HTTP connection (18): item.jd.com
+finish getting http://item.jd.com/1069129315.html
+Starting new HTTP connection (19): item.jd.com
+finish getting http://item.jd.com/1069129316.html
+Starting new HTTP connection (20): item.jd.com
+finish getting http://item.jd.com/1069129317.html
+finish getting http://item.jd.com/1069129318.html
+finish getting http://item.jd.com/1069129319.html
+finish getting http://item.jd.com/1068383998.html
+Starting new HTTP connection (21): item.jd.com
+finish getting http://item.jd.com/1068285448.html
+Starting new HTTP connection (22): item.jd.com
+finish getting http://item.jd.com/1068256600.html
+Starting new HTTP connection (23): item.jd.com
+finish getting http://item.jd.com/1068255600.html
+Starting new HTTP connection (24): item.jd.com
+finish getting http://item.jd.com/1068162523.html
+Starting new HTTP connection (25): item.jd.com
+finish getting http://item.jd.com/1032049.html
+error in Page:0, skuid:1032049, reason:list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 77, in <module>
+    product.update(getProductDetail(product['url']))
+  File "D:\workspace\NLP\src\getProductList.py", line 42, in getProductDetail
+    table = re.findall(tableRule,r.text)[0]
+IndexError: list index out of range
+Starting new HTTP connection (26): item.jd.com
+finish getting http://item.jd.com/1068149098.html
+Starting new HTTP connection (27): item.jd.com
+finish getting http://item.jd.com/1067912592.html
+Starting new HTTP connection (28): item.jd.com
+finish getting http://item.jd.com/1067912593.html
+Starting new HTTP connection (29): item.jd.com
+finish getting http://item.jd.com/1067912594.html
+Starting new HTTP connection (30): item.jd.com
+finish getting http://item.jd.com/1067912595.html
+Starting new HTTP connection (1): p.3.cn
+Resetting dropped connection: list.jd.com
+finish getting http://item.jd.com/1067912596.html
+Starting new HTTP connection (31): item.jd.com
+finish getting http://item.jd.com/1067912597.html
+Starting new HTTP connection (32): item.jd.com
+finish getting http://item.jd.com/1067912598.html
+Starting new HTTP connection (33): item.jd.com
+finish getting http://item.jd.com/1067912599.html
+Starting new HTTP connection (34): item.jd.com
+finish getting http://item.jd.com/1067912600.html
+Starting new HTTP connection (35): item.jd.com
+finish getting http://item.jd.com/1067912601.html
+Starting new HTTP connection (36): item.jd.com
+finish getting http://item.jd.com/1067912602.html
+Starting new HTTP connection (37): item.jd.com
+finish getting http://item.jd.com/1067912603.html
+Starting new HTTP connection (38): item.jd.com
+finish getting http://item.jd.com/1067912604.html
+Starting new HTTP connection (39): item.jd.com
+finish getting http://item.jd.com/1067912605.html
+Starting new HTTP connection (40): item.jd.com
+finish getting http://item.jd.com/1031861.html
+finish getting http://item.jd.com/1031860.html
+finish getting http://item.jd.com/1031647.html
+finish getting http://item.jd.com/1067558177.html
+Starting new HTTP connection (41): item.jd.com
+finish getting http://item.jd.com/1066980394.html
+Starting new HTTP connection (42): item.jd.com
+finish getting http://item.jd.com/1066980395.html
+finish getting http://item.jd.com/1030918.html
+finish getting http://item.jd.com/1030917.html
+finish getting http://item.jd.com/1066732880.html
+Starting new HTTP connection (43): item.jd.com
+finish getting http://item.jd.com/1066713191.html
+finish getting http://item.jd.com/1066315946.html
+Starting new HTTP connection (44): item.jd.com
+finish getting http://item.jd.com/1030483.html
+finish getting http://item.jd.com/1066149452.html
+Starting new HTTP connection (45): item.jd.com
+finish getting http://item.jd.com/1066115262.html
+Starting new HTTP connection (46): item.jd.com
+finish getting http://item.jd.com/1066115263.html
+Starting new HTTP connection (47): item.jd.com
+finish getting http://item.jd.com/1066114369.html
+Starting new HTTP connection (48): item.jd.com
+finish getting http://item.jd.com/1066114370.html
+Starting new HTTP connection (49): item.jd.com
+finish getting http://item.jd.com/1066114371.html
+Starting new HTTP connection (50): item.jd.com
+finish getting http://item.jd.com/1066114372.html
+Starting new HTTP connection (51): item.jd.com
+finish getting http://item.jd.com/1066111691.html
+Starting new HTTP connection (52): item.jd.com
+finish getting http://item.jd.com/1066111692.html
+Starting new HTTP connection (53): item.jd.com
+finish getting http://item.jd.com/1030213.html
+finish getting http://item.jd.com/1065862470.html
+Starting new HTTP connection (54): item.jd.com
+finish getting http://item.jd.com/1065862471.html
+Starting new HTTP connection (55): item.jd.com
+finish getting http://item.jd.com/1029643.html
+finish getting http://item.jd.com/1065769845.html
+Resetting dropped connection: p.3.cn
+Resetting dropped connection: list.jd.com
+Starting new HTTP connection (56): item.jd.com
+finish getting http://item.jd.com/1065758496.html
+finish getting http://item.jd.com/1029317.html
+finish getting http://item.jd.com/1065548385.html
+Starting new HTTP connection (57): item.jd.com
+finish getting http://item.jd.com/1065548386.html
+Starting new HTTP connection (58): item.jd.com
+finish getting http://item.jd.com/1065548387.html
+Starting new HTTP connection (59): item.jd.com
+finish getting http://item.jd.com/1065330931.html
+finish getting http://item.jd.com/1065330932.html
+Starting new HTTP connection (60): item.jd.com
+finish getting http://item.jd.com/1065330933.html
+finish getting http://item.jd.com/1065327056.html
+Starting new HTTP connection (61): item.jd.com
+finish getting http://item.jd.com/1065322788.html
+Starting new HTTP connection (62): item.jd.com
+finish getting http://item.jd.com/1065322949.html
+Starting new HTTP connection (63): item.jd.com
+finish getting http://item.jd.com/1065322950.html
+Starting new HTTP connection (64): item.jd.com
+finish getting http://item.jd.com/1065301684.html
+Starting new HTTP connection (65): item.jd.com
+finish getting http://item.jd.com/1065301685.html
+Starting new HTTP connection (66): item.jd.com
+finish getting http://item.jd.com/1065301686.html
+Starting new HTTP connection (67): item.jd.com
+finish getting http://item.jd.com/1065301687.html
+finish getting http://item.jd.com/1065297927.html
+Starting new HTTP connection (68): item.jd.com
+finish getting http://item.jd.com/1065297928.html
+Starting new HTTP connection (69): item.jd.com
+finish getting http://item.jd.com/1065298009.html
+Starting new HTTP connection (70): item.jd.com
+finish getting http://item.jd.com/1065280724.html
+Starting new HTTP connection (71): item.jd.com
+finish getting http://item.jd.com/1065280725.html
+Starting new HTTP connection (72): item.jd.com
+finish getting http://item.jd.com/1065280726.html
+Starting new HTTP connection (73): item.jd.com
+finish getting http://item.jd.com/1065050829.html
+Starting new HTTP connection (74): item.jd.com
+finish getting http://item.jd.com/1065050830.html
+Starting new HTTP connection (75): item.jd.com
+finish getting http://item.jd.com/1065050147.html
+Starting new HTTP connection (76): item.jd.com
+finish getting http://item.jd.com/1065011880.html
+Starting new HTTP connection (77): item.jd.com
+finish getting http://item.jd.com/1065006123.html
+Starting new HTTP connection (78): item.jd.com
+finish getting http://item.jd.com/1028750.html
+finish getting http://item.jd.com/1064939174.html
+Starting new HTTP connection (79): item.jd.com
+finish getting http://item.jd.com/1064938662.html
+Starting new HTTP connection (80): item.jd.com
+finish getting http://item.jd.com/1064938663.html
+Starting new HTTP connection (81): item.jd.com
+finish getting http://item.jd.com/1064938664.html
+Starting new HTTP connection (82): item.jd.com
+finish getting http://item.jd.com/1064937905.html
+Starting new HTTP connection (83): item.jd.com
+finish getting http://item.jd.com/1064937906.html
+finish getting http://item.jd.com/1064937709.html
+finish getting http://item.jd.com/1064937710.html
+Starting new HTTP connection (84): item.jd.com
+finish getting http://item.jd.com/1064934876.html
+Starting new HTTP connection (85): item.jd.com
+finish getting http://item.jd.com/1064934877.html
+finish getting http://item.jd.com/1064933925.html
+Starting new HTTP connection (86): item.jd.com
+finish getting http://item.jd.com/1064933926.html
+finish getting http://item.jd.com/1064933368.html
+Starting new HTTP connection (87): item.jd.com
+finish getting http://item.jd.com/1028617.html
+Starting new HTTP connection (88): item.jd.com
+finish getting http://item.jd.com/1028614.html
+finish getting http://item.jd.com/1028616.html
+Starting new HTTP connection (89): item.jd.com
+finish getting http://item.jd.com/1028613.html
+finish getting http://item.jd.com/1028605.html
+finish getting http://item.jd.com/1028604.html
+Starting new HTTP connection (90): item.jd.com
+finish getting http://item.jd.com/1028612.html
+Starting new HTTP connection (91): item.jd.com
+finish getting http://item.jd.com/1028611.html
+Starting new HTTP connection (92): item.jd.com
+finish getting http://item.jd.com/1028610.html
+Starting new HTTP connection (93): item.jd.com
+finish getting http://item.jd.com/1028609.html
+Starting new HTTP connection (94): item.jd.com
+finish getting http://item.jd.com/1028608.html
+Starting new HTTP connection (95): item.jd.com
+finish getting http://item.jd.com/1028606.html
+Starting new HTTP connection (96): item.jd.com
+finish getting http://item.jd.com/1028601.html
+finish getting http://item.jd.com/1028600.html
+Starting new HTTP connection (97): item.jd.com
+finish getting http://item.jd.com/1028599.html
+Starting new HTTP connection (98): item.jd.com
+finish getting http://item.jd.com/1028595.html
+Starting new HTTP connection (99): item.jd.com
+finish getting http://item.jd.com/1028598.html
+Starting new HTTP connection (100): item.jd.com
+finish getting http://item.jd.com/1028188.html
+finish getting http://item.jd.com/1064697241.html
+Starting new HTTP connection (101): item.jd.com
+finish getting http://item.jd.com/1027859.html
+finish getting http://item.jd.com/1027862.html
+finish getting http://item.jd.com/1027861.html
+Starting new HTTP connection (102): item.jd.com
+finish getting http://item.jd.com/1027858.html
+Starting new HTTP connection (103): item.jd.com
+finish getting http://item.jd.com/1027855.html
+finish getting http://item.jd.com/1027857.html
+Starting new HTTP connection (104): item.jd.com
+finish getting http://item.jd.com/1064689576.html
+Starting new HTTP connection (105): item.jd.com
+finish getting http://item.jd.com/1064689577.html
+Starting new HTTP connection (106): item.jd.com
+finish getting http://item.jd.com/1064652817.html
+Starting new HTTP connection (107): item.jd.com
+finish getting http://item.jd.com/1064652818.html
+finish getting http://item.jd.com/1064541801.html
+Starting new HTTP connection (108): item.jd.com
+finish getting http://item.jd.com/1064541802.html
+finish getting http://item.jd.com/1064541803.html
+Starting new HTTP connection (109): item.jd.com
+finish getting http://item.jd.com/1064541804.html
+Starting new HTTP connection (110): item.jd.com
+finish getting http://item.jd.com/1064541805.html
+finish getting http://item.jd.com/1064541806.html
+Starting new HTTP connection (111): item.jd.com
+finish getting http://item.jd.com/1064541807.html
+Starting new HTTP connection (112): item.jd.com
+finish getting http://item.jd.com/1064541808.html
+Starting new HTTP connection (113): item.jd.com
+finish getting http://item.jd.com/1064541849.html
+Starting new HTTP connection (114): item.jd.com
+finish getting http://item.jd.com/1064541850.html
+Starting new HTTP connection (115): item.jd.com
+finish getting http://item.jd.com/1064541851.html
+Starting new HTTP connection (116): item.jd.com
+finish getting http://item.jd.com/1064541852.html
+Starting new HTTP connection (1): list.jd.com
+Starting new HTTP connection (1): item.jd.com
+finish getting http://item.jd.com/1069973252.html
+Starting new HTTP connection (2): item.jd.com
+finish getting http://item.jd.com/1069973253.html
+Starting new HTTP connection (3): item.jd.com
+finish getting http://item.jd.com/1069961808.html
+Starting new HTTP connection (4): item.jd.com
+finish getting http://item.jd.com/1069917738.html
+Starting new HTTP connection (5): item.jd.com
+finish getting http://item.jd.com/1069917739.html
+Starting new HTTP connection (6): item.jd.com
+finish getting http://item.jd.com/1069917740.html
+Starting new HTTP connection (7): item.jd.com
+finish getting http://item.jd.com/1069576972.html
+Starting new HTTP connection (8): item.jd.com
+finish getting http://item.jd.com/1069576973.html
+Starting new HTTP connection (9): item.jd.com
+finish getting http://item.jd.com/1069570378.html
+Starting new HTTP connection (10): item.jd.com
+finish getting http://item.jd.com/1069570379.html
+Starting new HTTP connection (11): item.jd.com
+finish getting http://item.jd.com/1069557937.html
+Starting new HTTP connection (12): item.jd.com
+finish getting http://item.jd.com/1069302091.html
+Starting new HTTP connection (13): item.jd.com
+finish getting http://item.jd.com/1069302092.html
+Starting new HTTP connection (14): item.jd.com
+finish getting http://item.jd.com/1069259188.html
+Starting new HTTP connection (15): item.jd.com
+finish getting http://item.jd.com/1069249590.html
+Starting new HTTP connection (16): item.jd.com
+finish getting http://item.jd.com/1069247743.html
+Starting new HTTP connection (17): item.jd.com
+finish getting http://item.jd.com/1032982.html
+finish getting http://item.jd.com/1032989.html
+finish getting http://item.jd.com/1069139845.html
+Starting new HTTP connection (18): item.jd.com
+finish getting http://item.jd.com/1069139846.html
+Starting new HTTP connection (19): item.jd.com
+finish getting http://item.jd.com/1069129315.html
+Starting new HTTP connection (20): item.jd.com
+finish getting http://item.jd.com/1069129316.html
+Starting new HTTP connection (21): item.jd.com
+finish getting http://item.jd.com/1069129317.html
+Starting new HTTP connection (22): item.jd.com
+finish getting http://item.jd.com/1069129318.html
+Starting new HTTP connection (23): item.jd.com
+finish getting http://item.jd.com/1069129319.html
+Starting new HTTP connection (24): item.jd.com
+finish getting http://item.jd.com/1068383998.html
+Starting new HTTP connection (25): item.jd.com
+finish getting http://item.jd.com/1068285448.html
+Starting new HTTP connection (26): item.jd.com
+finish getting http://item.jd.com/1068256600.html
+Starting new HTTP connection (27): item.jd.com
+finish getting http://item.jd.com/1068255600.html
+Starting new HTTP connection (28): item.jd.com
+finish getting http://item.jd.com/1068162523.html
+Starting new HTTP connection (29): item.jd.com
+finish getting http://item.jd.com/1032049.html
+error in Page:0, skuid:1032049, reason:list index out of range
+Traceback (most recent call last):
+  File "getProductList.py", line 77, in <module>
+    product.update(getProductDetail(product['url']))
+  File "getProductList.py", line 42, in getProductDetail
+    table = re.findall(tableRule,r.text)[0]
+IndexError: list index out of range
+finish getting http://item.jd.com/1068149098.html
+Starting new HTTP connection (30): item.jd.com
+finish getting http://item.jd.com/1067912592.html
+Starting new HTTP connection (31): item.jd.com
+finish getting http://item.jd.com/1067912593.html
+Starting new HTTP connection (32): item.jd.com
+finish getting http://item.jd.com/1067912594.html
+Starting new HTTP connection (33): item.jd.com
+finish getting http://item.jd.com/1067912595.html
+Starting new HTTP connection (1): p.3.cn
+Starting new HTTP connection (34): item.jd.com
+finish getting http://item.jd.com/1067912596.html
+Starting new HTTP connection (35): item.jd.com
+finish getting http://item.jd.com/1067912597.html
+Starting new HTTP connection (36): item.jd.com
+finish getting http://item.jd.com/1067912598.html
+Starting new HTTP connection (37): item.jd.com
+finish getting http://item.jd.com/1067912599.html
+Starting new HTTP connection (38): item.jd.com
+finish getting http://item.jd.com/1067912600.html
+Starting new HTTP connection (39): item.jd.com
+finish getting http://item.jd.com/1067912601.html
+Starting new HTTP connection (40): item.jd.com
+finish getting http://item.jd.com/1067912602.html
+Starting new HTTP connection (41): item.jd.com
+finish getting http://item.jd.com/1067912603.html
+Starting new HTTP connection (42): item.jd.com
+finish getting http://item.jd.com/1067912604.html
+Starting new HTTP connection (43): item.jd.com
+finish getting http://item.jd.com/1067912605.html
+Starting new HTTP connection (44): item.jd.com
+finish getting http://item.jd.com/1031861.html
+finish getting http://item.jd.com/1031860.html
+finish getting http://item.jd.com/1031647.html
+finish getting http://item.jd.com/1067558177.html
+Starting new HTTP connection (45): item.jd.com
+finish getting http://item.jd.com/1066980394.html
+Starting new HTTP connection (46): item.jd.com
+finish getting http://item.jd.com/1066980395.html
+Starting new HTTP connection (47): item.jd.com
+finish getting http://item.jd.com/1030918.html
+finish getting http://item.jd.com/1030917.html
+finish getting http://item.jd.com/1066732880.html
+Starting new HTTP connection (48): item.jd.com
+finish getting http://item.jd.com/1066713191.html
+Starting new HTTP connection (49): item.jd.com
+finish getting http://item.jd.com/1066315946.html
+Starting new HTTP connection (50): item.jd.com
+finish getting http://item.jd.com/1030483.html
+finish getting http://item.jd.com/1066149452.html
+Starting new HTTP connection (51): item.jd.com
+finish getting http://item.jd.com/1066115262.html
+Starting new HTTP connection (52): item.jd.com
+finish getting http://item.jd.com/1066115263.html
+Starting new HTTP connection (53): item.jd.com
+finish getting http://item.jd.com/1066114369.html
+Starting new HTTP connection (54): item.jd.com
+finish getting http://item.jd.com/1066114370.html
+Starting new HTTP connection (55): item.jd.com
+finish getting http://item.jd.com/1066114371.html
+Starting new HTTP connection (56): item.jd.com
+finish getting http://item.jd.com/1066114372.html
+app is interrupted, finished pages:1, sku:1066114372
+Starting new HTTP connection (57): item.jd.com
+finish getting http://item.jd.com/1066111691.html
+Starting new HTTP connection (58): item.jd.com
+finish getting http://item.jd.com/1066111692.html
+Starting new HTTP connection (59): item.jd.com
+finish getting http://item.jd.com/1030213.html
+finish getting http://item.jd.com/1065862470.html
+Starting new HTTP connection (60): item.jd.com
+finish getting http://item.jd.com/1065862471.html
+finish getting http://item.jd.com/1029643.html
+finish getting http://item.jd.com/1065769845.html
+finish getting http://item.jd.com/1065758496.html
+finish getting http://item.jd.com/1029317.html
+finish getting http://item.jd.com/1065548385.html
+finish getting http://item.jd.com/1065548386.html
+app is interrupted, finished pages:2, sku:1065548386
+finish getting http://item.jd.com/1065548387.html
+finish getting http://item.jd.com/1065330931.html
+finish getting http://item.jd.com/1065330932.html
+app is interrupted, finished pages:2, sku:1065330932
+finish getting http://item.jd.com/1065330933.html
+app is interrupted, finished pages:2, sku:1065330933
+Starting new HTTP connection (61): item.jd.com
+finish getting http://item.jd.com/1065327056.html
+app is interrupted, finished pages:2, sku:1065322788
+Starting new HTTP connection (62): item.jd.com
+finish getting http://item.jd.com/1065322949.html
+app is interrupted, finished pages:2, sku:1065322950
+Starting new HTTP connection (63): item.jd.com
+app is interrupted, finished pages:2, sku:1065301684
+Starting new HTTP connection (64): item.jd.com
+finish getting http://item.jd.com/1065301685.html
+finish getting http://item.jd.com/1065301686.html
+app is interrupted, finished pages:2, sku:1065301687
+Starting new HTTP connection (65): item.jd.com
+finish getting http://item.jd.com/1065297927.html
+app is interrupted, finished pages:2, sku:1065297928
+Starting new HTTP connection (66): item.jd.com
+finish getting http://item.jd.com/1065298009.html
+app is interrupted, finished pages:2, sku:1065280724
+Starting new HTTP connection (67): item.jd.com
+finish getting http://item.jd.com/1065280725.html
+app is interrupted, finished pages:2, sku:1065280725
+finish getting http://item.jd.com/1065280726.html
+finish getting http://item.jd.com/1065050829.html
+finish getting http://item.jd.com/1065050830.html
+finish getting http://item.jd.com/1065050147.html
+finish getting http://item.jd.com/1065011880.html
+finish getting http://item.jd.com/1065006123.html
+finish getting http://item.jd.com/1028750.html
+finish getting http://item.jd.com/1064939174.html
+finish getting http://item.jd.com/1064938662.html
+finish getting http://item.jd.com/1064938663.html
+finish getting http://item.jd.com/1064938664.html
+finish getting http://item.jd.com/1064937905.html
+finish getting http://item.jd.com/1064937906.html
+finish getting http://item.jd.com/1064937709.html
+finish getting http://item.jd.com/1064937710.html
+finish getting http://item.jd.com/1064934876.html
+finish getting http://item.jd.com/1064934877.html
+finish getting http://item.jd.com/1064933925.html
+finish getting http://item.jd.com/1064933926.html
+finish getting http://item.jd.com/1064933368.html
+finish getting http://item.jd.com/1028617.html
+finish getting http://item.jd.com/1028614.html
+finish getting http://item.jd.com/1028616.html
+finish getting http://item.jd.com/1028613.html
+finish getting http://item.jd.com/1028605.html
+finish getting http://item.jd.com/1028604.html
+finish getting http://item.jd.com/1028612.html
+finish getting http://item.jd.com/1028611.html
+finish getting http://item.jd.com/1028610.html
+finish getting http://item.jd.com/1028609.html
+finish getting http://item.jd.com/1028608.html
+finish getting http://item.jd.com/1028606.html
+finish getting http://item.jd.com/1028601.html
+finish getting http://item.jd.com/1028600.html
+finish getting http://item.jd.com/1028599.html
+finish getting http://item.jd.com/1028595.html
+finish getting http://item.jd.com/1028598.html
+finish getting http://item.jd.com/1028188.html
+finish getting http://item.jd.com/1064697241.html
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): list.jd.com
+Starting new HTTP connection (1): item.jd.com
+Starting new HTTP connection (2): item.jd.com
+Starting new HTTP connection (3): item.jd.com
+Starting new HTTP connection (4): item.jd.com
+Starting new HTTP connection (5): item.jd.com
+Starting new HTTP connection (6): item.jd.com
+Starting new HTTP connection (7): item.jd.com
+Starting new HTTP connection (8): item.jd.com
+Starting new HTTP connection (9): item.jd.com
+Starting new HTTP connection (10): item.jd.com
+Starting new HTTP connection (11): item.jd.com
+Starting new HTTP connection (12): item.jd.com
+Starting new HTTP connection (13): item.jd.com
+Starting new HTTP connection (14): item.jd.com
+Starting new HTTP connection (15): item.jd.com
+Starting new HTTP connection (16): item.jd.com
+Starting new HTTP connection (17): item.jd.com
+Starting new HTTP connection (18): item.jd.com
+Starting new HTTP connection (19): item.jd.com
+app is interrupted, finished pages:0
+Starting new HTTP connection (20): item.jd.com
+Starting new HTTP connection (21): item.jd.com
+Starting new HTTP connection (22): item.jd.com
+Starting new HTTP connection (23): item.jd.com
+app is interrupted, finished pages:1
+Starting new HTTP connection (24): item.jd.com
+Starting new HTTP connection (25): item.jd.com
+Starting new HTTP connection (26): item.jd.com
+Starting new HTTP connection (27): item.jd.com
+Starting new HTTP connection (28): item.jd.com
+Starting new HTTP connection (29): item.jd.com
+Starting new HTTP connection (30): item.jd.com
+Starting new HTTP connection (31): item.jd.com
+Starting new HTTP connection (32): item.jd.com
+Starting new HTTP connection (33): item.jd.com
+Starting new HTTP connection (34): item.jd.com
+Starting new HTTP connection (35): item.jd.com
+Starting new HTTP connection (36): item.jd.com
+Starting new HTTP connection (37): item.jd.com
+Starting new HTTP connection (38): item.jd.com
+Starting new HTTP connection (39): item.jd.com
+Starting new HTTP connection (1): list.jd.com
+Starting new HTTP connection (1): item.jd.com
+Starting new HTTP connection (2): item.jd.com
+Starting new HTTP connection (3): item.jd.com
+Starting new HTTP connection (4): item.jd.com
+Starting new HTTP connection (5): item.jd.com
+Starting new HTTP connection (6): item.jd.com
+Starting new HTTP connection (7): item.jd.com
+Starting new HTTP connection (8): item.jd.com
+Starting new HTTP connection (9): item.jd.com
+Starting new HTTP connection (10): item.jd.com
+Starting new HTTP connection (11): item.jd.com
+Starting new HTTP connection (12): item.jd.com
+Starting new HTTP connection (13): item.jd.com
+Starting new HTTP connection (14): item.jd.com
+Starting new HTTP connection (15): item.jd.com
+Starting new HTTP connection (16): item.jd.com
+Starting new HTTP connection (17): item.jd.com
+Starting new HTTP connection (18): item.jd.com
+Starting new HTTP connection (19): item.jd.com
+Starting new HTTP connection (20): item.jd.com
+Starting new HTTP connection (21): item.jd.com
+Starting new HTTP connection (22): item.jd.com
+Starting new HTTP connection (23): item.jd.com
+Starting new HTTP connection (24): item.jd.com
+Starting new HTTP connection (25): item.jd.com
+Starting new HTTP connection (26): item.jd.com
+Starting new HTTP connection (27): item.jd.com
+Starting new HTTP connection (28): item.jd.com
+Starting new HTTP connection (29): item.jd.com
+error in Page:0, skuid:1032049, reason:list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductList.py", line 75, in <module>
+    product.update(getProductDetail(product['url']))
+  File "D:\workspace\NLP\src\getProductList.py", line 40, in getProductDetail
+    table = re.findall(tableRule,r.text)[0]
+IndexError: list index out of range
+Starting new HTTP connection (30): item.jd.com
+Starting new HTTP connection (31): item.jd.com
+Starting new HTTP connection (32): item.jd.com
+Starting new HTTP connection (33): item.jd.com
+Starting new HTTP connection (1): p.3.cn
+Resetting dropped connection: list.jd.com
+Starting new HTTP connection (34): item.jd.com
+Starting new HTTP connection (35): item.jd.com
+Starting new HTTP connection (1): list.jd.com
+Starting new HTTP connection (1): item.jd.com
+Starting new HTTP connection (2): item.jd.com
+Starting new HTTP connection (3): item.jd.com
+Starting new HTTP connection (4): item.jd.com
+Starting new HTTP connection (5): item.jd.com
+app is interrupted, finished pages:0
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Resetting dropped connection: club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Resetting dropped connection: club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): www.jd.com
+Starting new HTTP connection (1): club.jd.com
+Resetting dropped connection: club.jd.com
+Resetting dropped connection: club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Resetting dropped connection: club.jd.com
+log level, 10
+Starting new HTTP connection (1): club.jd.com
+"GET /review/860612-0-1-0.html HTTP/1.1" 200 None
+"GET /review/860612-0-1-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-2-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-3-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-4-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-5-0.html HTTP/1.1" 200 None
+@#∆¿¬€ ±º‰:2013-11-24 22:37#–«º∂:5#”√ªß√˚:ÎÖâmøÕ#”√ªß∫≈:5827252#±Í«©:ÀŸ∂»øÏ#–ƒµ√:¿œ∆≈œ≤ª∂’‚∏ˆ£¨≤ª¥Ìµƒ∂´Œ˜°£#π∫¬Ú»’∆⁄:2013-11-22#—’…´:◊ÿ∫⁄…´#∞Ê±æ:3GÕ®ª∞∞Ê±æ16G
+finish getting the page:21
+"GET /review/860612-0-6-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-7-0.html HTTP/1.1" 200 None
+@#∆¿¬€ ±º‰:2013-11-14 14:34#–«º∂:3#”√ªß√˚:¥Û∑ áÂ#”√ªß∫≈:5990588#±Í«©:»Ìº˛∂‡#–ƒµ√:Ã´“ª∞„¡À~◊‘¥¯»Ìº˛”÷∂‡~¡È√Ù∂»“≤≤ª∫√~ªπ «∆ªπ˚µƒ≤˙∆∑∫√£°#π∫¬Ú»’∆⁄:2013-08-23#—’…´:◊ÿ∫⁄…´#∞Ê±æ:3GÕ®ª∞∞Ê±æ16G
+finish getting the page:21
+"GET /review/860612-0-8-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-9-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-10-0.html HTTP/1.1" 200 None
+@#∆¿¬€ ±º‰:2013-10-31 14:19#–«º∂:5#”√ªß√˚:zy_6111#”√ªß∫≈:18183363#±Í«©:ø¥µÁ”∞≤ª¥Ì#–ƒµ√:¥•∆¡≤ª «∫‹¡È√Ù£¨”–Õ£∂Ÿ°§°§°§ ◊‹ÃÂ∏–æı“ª∞„~ ∆‰À˚”–¥˝π€≤Ï#π∫¬Ú»’∆⁄:2013-09-18#—’…´:◊ÿ∫⁄…´#∞Ê±æ:3GÕ®ª∞∞Ê±æ16G
+@#∆¿¬€ ±º‰:2013-10-30 11:48#–«º∂:5#”√ªß√˚:À{≤®#”√ªß∫≈:351103#±Í«©:∆¡ƒª«ÂŒ˙,ÀŸ∂»øÏ,‘À––ÀŸ∂»øÏ,…œÕ¯ÀŸ∂»øÏ#–ƒµ√:œ≤ª∂»˝–«µƒ∆¡ƒª£¨º€Œªœ‡∂‘∆ªπ˚“≤±„“À£¨3G…œÕ¯PADπ¶ƒ‹ÕÍ√¿ÃÂœ÷£¨÷µ¡À#π∫¬Ú»’∆⁄:2013-10-26#—’…´:◊ÿ∫⁄…´#∞Ê±æ:3GÕ®ª∞∞Ê±æ16G
+finish getting the page:21
+"GET /review/860612-0-11-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-12-0.html HTTP/1.1" 200 None
+@#∆¿¬€ ±º‰:2013-10-24 16:30#–«º∂:5#”√ªß√˚:—„öÓ#”√ªß∫≈:3283036#±Í«©:∆¡ƒª«ÂŒ˙,ÀŸ∂»øÏ,œµÕ≥¡˜≥©,‘À––ÀŸ∂»øÏ,∫‹∆Ø¡¡#–ƒµ√:≤ª¥Ìµƒ∆Ω∞Â£¨æÕÀ˚NNµƒ£¨∞◊…´πÛ300£¨œ¬µ•∫Ûµ⁄∂˛ÃÏ∞◊…´“≤ΩµµΩ∂˛¡˘∞À∞À#π∫¬Ú»’∆⁄:2013-10-22#—’…´:◊ÿ∫⁄…´#∞Ê±æ:3GÕ®ª∞∞Ê±æ16G
+finish getting the page:21
+"GET /review/860612-0-13-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-14-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-15-0.html HTTP/1.1" 200 None
+@#ËØÑËÆ∫Êó∂Èó¥:2013-10-08 20:38#ÊòüÁ∫ß:5#Áî®Êà∑Âêç:qxiaoh#Áî®Êà∑Âè∑:38702303#Ê†áÁ≠æ:Â±èÂπïÊ∏ÖÊô∞#ÂøÉÂæó:Â•ΩÁî®‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢#Ë¥≠‰π∞Êó•Êúü:2013-09-14#È¢úËâ≤:Ê£ïÈªëËâ≤#ÁâàÊú¨:3GÈÄöËØùÁâàÊú¨16G
+finish getting the page:21
+"GET /review/860612-0-16-0.html HTTP/1.1" 200 None
+finish getting the page:21
+"GET /review/860612-0-17-0.html HTTP/1.1" 200 None
+Starting new HTTP connection (1): club.jd.com
+finish getting the page:0
+finish getting the page:1
+finish getting the page:2
+finish getting the page:3
+finish getting the page:4
+finish getting the page:5
+finish getting the page:6
+finish getting the page:7
+finish getting the page:8
+finish getting the page:9
+finish getting the page:10
+finish getting the page:11
+finish getting the page:12
+finish getting the page:13
+@#ËØÑËÆ∫Êó∂Èó¥:2013-10-08 20:38#ÊòüÁ∫ß:5#Áî®Êà∑Âêç:qxiaoh#Áî®Êà∑Âè∑:38702303#Ê†áÁ≠æ:Â±èÂπïÊ∏ÖÊô∞#ÂøÉÂæó:Â•ΩÁî®‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢#Ë¥≠‰π∞Êó•Êúü:2013-09-14#È¢úËâ≤:Ê£ïÈªëËâ≤#ÁâàÊú¨:3GÈÄöËØùÁâàÊú¨16G
+finish getting the page:14
+Starting new HTTP connection (1): club.jd.com
+@#ËØÑËÆ∫Êó∂Èó¥:2013-10-08 20:38#ÊòüÁ∫ß:5#Áî®Êà∑Âêç:qxiaoh#Áî®Êà∑Âè∑:38702303#Ê†áÁ≠æ:Â±èÂπïÊ∏ÖÊô∞#ÂøÉÂæó:Â•ΩÁî®‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢#Ë¥≠‰π∞Êó•Êúü:2013-09-14#È¢úËâ≤:Ê£ïÈªëËâ≤#ÁâàÊú¨:3GÈÄöËØùÁâàÊú¨16G
+finish getting the page:14
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+@#ËØÑËÆ∫Êó∂Èó¥:2013-10-08 20:38#ÊòüÁ∫ß:5#Áî®Êà∑Âêç:qxiaoh#Áî®Êà∑Âè∑:38702303#Ê†áÁ≠æ:Â±èÂπïÊ∏ÖÊô∞#ÂøÉÂæó:Â•ΩÁî®‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢#Ë¥≠‰π∞Êó•Êúü:2013-09-14#È¢úËâ≤:Ê£ïÈªëËâ≤#ÁâàÊú¨:3GÈÄöËØùÁâàÊú¨16G
+finish getting the page:14
+Resetting dropped connection: club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Â•ΩÁî®‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢‚Ä¢
+Starting new HTTP connection (1): club.jd.com
+finish getting the page:14
+finish getting the page:14
+finish getting the page:14
+finish getting the page:14
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Starting new HTTP connection (1): club.jd.com
+Starting new HTTP connection (1): club.jd.com
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:2,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:3,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:4,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:5,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:6,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:7,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:8,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:9,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:10,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:11,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:12,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:13,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:14,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:15,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:16,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:17,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:18,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:19,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:20,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:21,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:22,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:23,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:24,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:25,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:26,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:27,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:28,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:29,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:0 div:30,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:2,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:3,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:4,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:5,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:6,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:7,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:8,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:9,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:10,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:11,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:12,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:13,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:14,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:15,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:16,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:17,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:18,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:19,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:20,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:21,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:22,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:23,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:24,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:25,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:26,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:27,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:28,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:29,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:1 div:30,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:2,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:3,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:4,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:5,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:6,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:7,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:8,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:9,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:10,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:11,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:12,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:13,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:14,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:15,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:16,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:17,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:18,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:19,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:20,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:21,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:22,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:23,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:24,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:25,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:26,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:27,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:28,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:29,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:2 div:30,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:2,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:3,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:4,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:5,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:6,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:7,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:8,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:9,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:10,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:11,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:12,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:13,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:14,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:15,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:16,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:17,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:18,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:19,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:20,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:21,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:22,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:23,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:24,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:25,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:26,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:27,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:28,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:29,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:3 div:30,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:2,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:3,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:4,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:5,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:6,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:7,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:8,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:9,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:10,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:11,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:12,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:13,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:14,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:15,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:16,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:17,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:18,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:19,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:20,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:21,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:22,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:23,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:24,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:25,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:26,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:27,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:28,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:29,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:4 div:30,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:2,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:3,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:4,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:5,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:6,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:7,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:8,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:9,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:10,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:11,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:12,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:13,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:14,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:15,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:16,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:17,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:18,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:19,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:20,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:21,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:22,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:23,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:24,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:25,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:26,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:27,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:28,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:29,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Div sparsing error in page:5 div:30,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Resetting dropped connection: club.jd.com
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Starting new HTTP connection (1): club.jd.com
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+Div sparsing error in page:0 div:1,cause:'ascii' codec can't decode byte 0xa3 in position 1: ordinal not in range(128)
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
+list index out of range
+Traceback (most recent call last):
+  File "D:\workspace\NLP\src\getProductComment.py", line 20, in getCommentPages
+    strPage = soup('a')[-2].text
+IndexError: list index out of range
