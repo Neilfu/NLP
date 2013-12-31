@@ -18,7 +18,7 @@ def getCommentPages(session,url):
         pages = int(strPage.replace('.',""))
     except Exception, e:
         logger.exception(str(e))
-        pages=13
+        pages=1
     finally:
         return pages
 

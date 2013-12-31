@@ -24,9 +24,9 @@ def setLog(strLevel='INFO',logfile='../log.txt'):
     return logger
 
 def progressBar(num=1, total=100, bar_word=".", sep= 1 ):
-    stars=('-','\\','|','/')
     rate = int(float(num) / float(total)*1000)
-    sys.stdout.write(str(rate/10.0)+'%  '+stars[(rate / sep) % len(stars)]+"\r")
+    star='.'
+    sys.stdout.write(str(rate/10.0)+'%  '+star * rate+"\r")
     sys.stdout.flush() 
         
 def openTable(dbName='shouji',tableName='prodcutList'):       
