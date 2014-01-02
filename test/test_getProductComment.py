@@ -1,6 +1,6 @@
-#!/usr/bin/python  
 #coding=gb2312
 import unittest
+import pickle
 import src.getProductComment as Comment
 
 class TestGetProductComment(unittest.TestCase):
@@ -12,7 +12,7 @@ class TestGetProductComment(unittest.TestCase):
     
     def test_getCommentPages(self):
         pages = Comment.getCommentPages(self.session,self.url)
-        self.assertEqual(pages, 376)
+        self.assertEqual(pages, 377)
     
     def test_getCommentRecord(self):
         htmlFile = open(self.filename,'r')
@@ -28,6 +28,9 @@ class TestGetProductComment(unittest.TestCase):
         self.assertDictEqual(commentRecord['commentExtra'],{u'购买日期':u'2013-10-19',u'颜色':u'棕黑色',u'版本':u'3G通话版本16G'}, 'commentExtra error')
         self.assertListEqual(commentRecord['commentTags'], [u'速度快',u'系统流畅',u'很漂亮'], 'commentTags error')
         
+        WFILE = open('data/commentRecord.dump','w')
+        pickle.dump(commentRecord, WFILE)
+        WFILE.close()
  
 if __name__ == '__main__':
     unittest.main()

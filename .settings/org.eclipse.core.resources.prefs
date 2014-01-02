@@ -1,3 +1,7 @@
 eclipse.preferences.version=1
-encoding//src/getProductComment.py=gbk
+encoding//src/getProductComment.py=gb2312
+encoding//src/getProductList.py=gb2312
+encoding//src/myHelper.py=gb2312
+encoding//src/mytools.py=gb2312
 encoding//test/test_getProductComment.py=gb2312
+encoding//test/test_myHelper.py=gb2312

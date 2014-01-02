@@ -1,9 +1,9 @@
-#!/usr/bin/python  
-#coding=gbk
+#coding=gb2312
 import re
+import time
 import requests
 from bs4 import BeautifulSoup
-from myHelper import setLog,openTable,progressBar
+from myHelper import setLog,openTable,progressBar,CommentRecord
 
 
 
@@ -47,28 +47,47 @@ def getCommentRecord(div):
     return commentRecord 
 
 ruleDiv = re.compile(r'(<div id=\"comments-list\".*?)<div class=\"clearfix\"',re.S)
+
 if __name__ == '__main__':
-    logger = setLog('CRITICAL')
+    logger = setLog('INFO')
     logger.debug('log level, %d' %(logger.level))
     
     URL='http://club.jd.com/review/%s-0-%s-0.html'
     session = requests.Session()
     
     commentFilename ='../comments.txt'
-    COMMFILE = open(commentFilename, 'w')
+    myCommentRecord = CommentRecord(commentFilename)
+    
+    
+    #COMMFILE = open(commentFilename, 'w')
     tblProductList = openTable(dbName='shouji',tableName='productList')
 
     for product in tblProductList.find({u'操作系统':{'$regex':'Android'}}): 
         try:
             skuid= product['sku']
-            COMMFILE.write("@@<<<product skuid:%s>>>\n" %(skuid))
+            
+            #firstDate：上次获取到的最新评论时间，lastDate：上次获取到的最远评论时间
+            if u'最新记录' in product:
+                firstDate = time.strptime(product[u'最新记录'],'%Y-%m-%d %H:%M')
+            else:
+                firstDate = time.localtime(time.time())
+            
+            if u'最早记录' in product:
+                lastDate = time.strptime(product[u'最早记录'],'%Y-%m-%d %H:%M')
+            else:
+                lastDate = firstDate
+            #NewestDate：本次解析获取的评论最新时间，OldestDate：本次获取到的最远评论时间
+            NewestDate = firstDate
+            OldestDate = lastDate                            
+            
+            myCommentRecord.writeproductHead(skuid)   
+            #COMMFILE.write("@@<<<product skuid:%s>>>\n" %(skuid))
             pages = getCommentPages(session,URL %(skuid,1))
             isFirst = True
-            NewestDate = ''
-            OldestDate = ''
+
             if pages > 0 :
                 for page in range(pages):
-                    progressBar(page,pages)
+                    progressBar('getting product %s' %(skuid),page+1,pages)
                     try:
                         r = session.get(URL %(skuid,page+1))
                         listDiv = re.findall(ruleDiv,r.text)[0]
@@ -76,37 +95,37 @@ if __name__ == '__main__':
                         divLists = soup.select('div[class="mc"]')
                         divCount = 0
                         for div in divLists:
+                            divCount = divCount + 1
                             try:
                                 commentRecord = getCommentRecord(div)
-                                lineFormat= u'@#评论时间:%s#星级:%s#用户名:%s#用户号:%s#标签:%s#心得:%s'
-                                lineString =  lineFormat %(commentRecord['commentDate'],commentRecord['commentStar'],
-                                                           commentRecord['commentUsername'],commentRecord['commentUserid'],
-                                                           u','.join(commentRecord['commentTags']),commentRecord['comments'])             
-                                for key in commentRecord['commentExtra']:
-                                    lineString = lineString + '#%s:%s' %(key,commentRecord['commentExtra'][key])
-                                COMMFILE.write(unicode(lineString.encode('gb2312','ignore')))
-                                COMMFILE.write('\n')
-                                #记录当前解析的位置（时间维度），避免后续重复
-                                if isFirst:
-                                    NewestDate = commentRecord['commentDate']
-                                    isFirst = False
-                                OldestDate = commentRecord['commentDate']
-                                divCount = divCount + 1
+                                #如果评论时间在【lastDate，firstDate】之间，说明已经获取过，跳过
+                                currentRecordDate = time.strptime(commentRecord['commentDate'],'%Y-%m-%d %H:%M')
+                                if currentRecordDate <= NewestDate and currentRecordDate >  OldestDate:
+                                    logger.info('\nskip! product:%s, page:%s, currentRecordDate:%s,NewestDate:%s,OldestDate:%s' 
+                                                 %(skuid, page, time.strftime('%Y-%m-%d %H:%M', currentRecordDate),
+                                                   time.strftime('%Y-%m-%d %H:%M', NewestDate),
+                                                   time.strftime('%Y-%m-%d %H:%M', OldestDate)
+                                                   )
+                                                )
+                                    continue
+                                elif currentRecordDate > NewestDate:
+                                    NewestDate = time.strptime(commentRecord['commentDate'],'%Y-%m-%d %H:%M')
+                                else:
+                                    OldestDate = time.strptime(commentRecord['commentDate'],'%Y-%m-%d %H:%M')
+                                myCommentRecord.writeCommentsRecord(commentRecord)
+                                
                             except Exception, e:
                                 logger.warning("Div sparsing error in page:%d div:%d,cause:%s" %(page,divCount,unicode(e)))
                                 continue               
                     except Exception, e:
                         logger.warning("page sparsing error in page:%d cause:%s" %(page,unicode(e)))
                         continue
+        finally:   
             #更新产品库的解析状态
-            product[u'最新记录'] = NewestDate
-            product[u'最早记录'] = OldestDate
-            tblProductList.update({u'sku':skuid},product)   
-        #except KeyboardInterrupt, e:
-        #    print "Interupted!"
-        finally:
-            COMMFILE.close()      
-            
+            product[u'最新记录'] = time.strftime('%Y-%m-%d %H:%M', NewestDate)
+            product[u'最早记录'] = time.strftime('%Y-%m-%d %H:%M', OldestDate)
+            tblProductList.update({u'sku':skuid},product)
+            myCommentRecord.flushCommentsRecord()
     
             
     
