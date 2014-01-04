@@ -6547,3 +6547,651 @@ skip!currentRecordDate:2013-11-14 14:53,	NewestDate:2014-01-02 10:11,	OldestDate
 skip!currentRecordDate:2013-11-14 14:25,	NewestDate:2014-01-02 10:11,	OldestDate:2013-11-12 20:01
 
 skip!currentRecordDate:2013-11-14 14:19,	NewestDate:2014-01-02 10:11,	OldestDate:2013-11-12 20:01
+Starting new HTTP connection (1): list.jd.com
+error in Page:0, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:1, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:2, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:3, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:4, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:5, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:6, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:7, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:8, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:9, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:10, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:11, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:12, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:13, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:14, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:15, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:16, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:17, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:18, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:19, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:20, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:21, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:22, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:23, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:24, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:25, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:26, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:27, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:28, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:29, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:30, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:31, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:32, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:33, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:34, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:35, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:36, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:37, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:38, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:39, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:40, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:41, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:42, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:43, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:44, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:45, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:46, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:47, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:48, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:49, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:50, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:51, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:52, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:53, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:54, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:55, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:56, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:57, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:58, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:59, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:60, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:61, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:62, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:63, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:64, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:65, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:66, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:67, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:68, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:69, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:70, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:71, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:72, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:73, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:74, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:75, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:76, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:77, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:78, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:79, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:80, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:81, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:82, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:83, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:84, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:85, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:86, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:87, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:88, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+error in Page:89, reason:unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 60, in <module>
+    progressBar(page,totalPages)
+  File "/Users/neilfu/git/NLP/src/myHelper.py", line 29, in progressBar
+    sys.stdout.write(strTitle+"\t=>\t"+str(rate/10.0)+"%\r")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Starting new HTTP connection (1): list.jd.com
+Starting new HTTP connection (1): item.jd.com
+Starting new HTTP connection (1): p.3.cn
+Resetting dropped connection: list.jd.com
+Resetting dropped connection: p.3.cn
+Resetting dropped connection: list.jd.com
+error in Page:4, skuid:1032049, reason:list index out of range
+Traceback (most recent call last):
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 72, in <module>
+    product.update(getProductDetail(product['url']))
+  File "/Users/neilfu/git/NLP/src/getProductList.py", line 40, in getProductDetail
+    table = re.findall(tableRule,r.text)[0]
+IndexError: list index out of range
+Resetting dropped connection: p.3.cn
+Resetting dropped connection: list.jd.com
+Resetting dropped connection: p.3.cn
+Resetting dropped connection: list.jd.com

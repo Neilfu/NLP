@@ -50,14 +50,14 @@ def getProductDetail(url):
  
 
  
-dbProductList = openTable(dbName='shouji',tableName='prodcutList')
+dbProductList = openTable(dbName='shouji',tableName='productList')
 session = requests.Session()
 totalPages=getPageNum() 
 
 rule = re.compile(r'id=\"plist\".*?>(.*?)<\/div>\s+<script',re.S)
 for page in range(totalPages):
     try:
-        progressBar(page,totalPages)
+        progressBar("getting pages",page,totalPages)
         r = session.get(URL %(page+1))
         listUls = re.findall(rule,r.text)
         product={}
