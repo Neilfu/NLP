@@ -4,9 +4,10 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from myHelper import setLog, progressBar,openTable
+import time
   
 tableRule=re.compile(r'<table.*?class="Ptable".*?<\/table>',re.S)
-URL='http://list.jd.com/9987-653-655-0-0-0-0-0-0-0-1-5-%s-1-19-1601-3633-0.html'
+URL='http://list.jd.com/list.html?cat=9987,653,655&page=%s&sort=sort_winsdate_desc&go=0'
 priceUrl = 'http://p.3.cn/prices/mgets?skuIds=%s&type=1'
 logger = setLog('INFO')
 logger.debug('log level, %d' %(logger.level))
@@ -14,7 +15,7 @@ logger.debug('log level, %d' %(logger.level))
 def getPageNum(no=1):
     r = session.get(URL %(no))
     soup = BeautifulSoup(r.text)
-    strPages = soup.find('span',attrs={'class':'text'})
+    strPages = soup.find('span',attrs={'class':'fp-text'})
     if strPages:
         pages = int(strPages.text.split('/')[1])
     else:
@@ -36,6 +37,7 @@ def getProductDetail(url):
     productDetail = {}
     if not url:
         return productDetail
+    time.sleep(0.02)
     r = session.get(url)
     table = re.findall(tableRule,r.text)[0]
     if not table:
@@ -45,16 +47,36 @@ def getProductDetail(url):
     for tr in trs:
         if len(tr('td')) == 2:
             product[tr('td')[0].text.replace('.','')] = tr('td')[1].text
+            #product[tr('td')[0].text.replace('.','').encode('utf-8')] = tr('td')[1].text.encode('utf-8')
     return productDetail
     
- 
+def getFieldNames():
+    fieldNames = set()
+    for row in dbProductList.find():
+        fieldNames.update(row.keys())
+    fieldNames.remove('')
+    return fieldNames
 
- 
+def dumpProduct():
+    fieldHeaders = list(getFieldNames())
+    DUMPFILE = open('d:/product.csv','w')
+    DUMPFILE.write('\t'.join(fieldHeaders).encode('utf-8')+'\n')
+    for row in dbProductList.find():
+        line = []
+        for field in fieldHeaders:
+            if field == u'_id':
+                line.append(str(row.get(field,'')))
+            else:
+                line.append(row.get(field,''))
+        DUMPFILE.write( '\t'.join(line).encode('utf-8')+'\n')
+    DUMPFILE.close()
+
+
 dbProductList = openTable(dbName='shouji',tableName='productList')
 session = requests.Session()
 totalPages=getPageNum() 
 
-rule = re.compile(r'id=\"plist\".*?>(.*?)<\/div>\s+<script',re.S)
+rule = re.compile(r'id=\"plist\".*?>(.*?)<div class=\"clr\"',re.S)
 for page in range(totalPages):
     try:
         progressBar("getting pages",page,totalPages)
@@ -63,16 +85,16 @@ for page in range(totalPages):
         product={}
         soup = BeautifulSoup(listUls[0])
         skuLists=[]
-        for li in soup('li'):
+        for li in soup.select('.gl-item'):
             product={}
-            product['sku'] = li['sku']
+            product['sku'] = li.find(attrs={"data-sku":True})['data-sku']
             skuLists.append(product['sku'])
-            product['url'] = li.select('.p-name')[0].a['href']
+            product['url'] = li.select("div > a")[0]['href']
             try:
-                product.update(getProductDetail(product['url']))
                 if dbProductList.find({u'sku':product['sku']}).count() >0:
                     logger.debug('%s exist,skip' %(product['sku']))
-                    continue   
+                    continue
+                product.update(getProductDetail(product['url']))
                 dbProductList.insert(product)
             except Exception, e:
                 logger.exception("error in Page:%d, skuid:%s, reason:%s" %(page, product['sku'], str(e)))
@@ -85,5 +107,5 @@ for page in range(totalPages):
     except Exception,e:
         logger.exception("error in Page:%d, reason:%s" %(page,str(e)))
 
-        
+
         

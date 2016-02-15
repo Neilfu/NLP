@@ -1,0 +1,8 @@
+*.pyc
+*.csv
+*.tsv
+*.log
+*.txt
+*.html
+*.patch
+.idea

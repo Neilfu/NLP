@@ -12,7 +12,7 @@ class TestGetProductComment(unittest.TestCase):
     
     def test_getCommentPages(self):
         pages = Comment.getCommentPages(self.session,self.url)
-        self.assertEqual(pages, 377)
+        self.assertEqual(pages, 673)
     
     def test_getCommentRecord(self):
         htmlFile = open(self.filename,'r')
