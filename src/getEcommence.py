@@ -1,4 +1,5 @@
 #coding=utf-8
+import random
 import re
 import sys, getopt
 
@@ -121,7 +122,8 @@ def getProduct(dbProductList,**cat):
         try:
             progressBar("getting pages",page,totalPages)
             urlPage = catUrl + SUFFIX
-            time.sleep(0.1)
+            sleepTime = random.romdom()*global_setting['sleep']+0.1
+            time.sleep(sleepTime)
             r = session.get(urlPage %(page+1))
             listUls = re.findall(rule,r.text)
             soup = BeautifulSoup(listUls[0])
@@ -167,7 +169,8 @@ def getProductDetail(sku, url, db):
     if not url:
         return False
     productDetail = {}
-    time.sleep(0.5)
+    sleepTime = random.romdom()*global_setting['sleep']+0.1
+    time.sleep(sleepTime)
     r = session.get(url)
     try:
         table = re.findall(tableRule,r.text)[0]
@@ -187,7 +190,8 @@ def getProductDetail(sku, url, db):
 
 def updatePrice(skuLists,db):
     priceUrl = 'http://p.3.cn/prices/mgets?skuIds=J_%s&type=1'
-    time.sleep(0.5)
+    sleepTime = random.romdom()*global_setting['sleep']+0.1
+    time.sleep(sleepTime)
     strSku = ",J_".join(skuLists)
     r = session.get(priceUrl %(strSku))
     if not r.text:
@@ -204,7 +208,7 @@ def updatePrice(skuLists,db):
 
 def parseCommandLine():
     para = {}
-    options,args = getopt.getopt(sys.argv[1:],"h",['site=', 'level1=', 'level2=', 'level3=', 'host=', 'port=', 'database=','productTable=','catTable=','pagesize=', 'hasPrice','batchUpdate', 'hasSpec','delta', 'help','catUpdate'])
+    options,args = getopt.getopt(sys.argv[1:],"h",['site=', 'level1=', 'level2=', 'level3=', 'host=', 'port=','sleep=', 'database=','productTable=','catTable=','pagesize=', 'hasPrice','batchUpdate', 'hasSpec','delta', 'help','catUpdate'])
     for opt, value in options:
         if opt in ['--level1','--level2','--level3']:
             strKey = re.sub('-','',opt)
@@ -212,7 +216,7 @@ def parseCommandLine():
         elif opt in ['--site','--database','--catTable','--productTable']:
             strKey = re.sub('-','',opt)
             para[strKey] = value.decode('gb2312')
-        elif opt in ['--host','--port','--pagesize']:
+        elif opt in ['--host','--port','--pagesize','--sleep']:
             strKey = re.sub('-','',opt)
             para[strKey] = value
         elif opt in ['--hasPrice','--hasSpec','--delta','--batchUpdate','--catUpdate']:
@@ -258,7 +262,7 @@ def getUpdateCat():
     return retCat
 
 def usage():
-    print "Usage: python getCategory.py [--help] [--site] [--hasPrice] [--hasSpec] [--homeUrl]  [--host], [--port], [--database] [--productTable] [--catTable] [--level1] [--level2] [--level3] [--delta] [--batchUpdate] [--catUpdate]\n"
+    print "Usage: python getCategory.py [--help] [--site] [--hasPrice] [--hasSpec] [--homeUrl]  [--host], [--port] [--sleep] [--database] [--productTable] [--catTable] [--level1] [--level2] [--level3] [--delta] [--batchUpdate] [--catUpdate]\n"
 
 global_setting = {}
 global session
@@ -284,6 +288,7 @@ if __name__ == '__main__':
     global_setting['pagesize'] = retPara.get('pagesize',60)
     global_setting['batchUpdate'] = retPara.get('batchUpdate',False)
     global_setting['catUpdate'] = retPara.get('catUpdate',False)
+    global_setting['sleep'] = retPara.get('sleep',0.5)
     #import pdb;pdb.set_trace()
     if global_setting['catUpdate']:
         getCategoryUrl(site=global_setting['site'],url=global_setting['targetUrl'])
