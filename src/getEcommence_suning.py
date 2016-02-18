@@ -51,16 +51,16 @@ def getCategoryUrl(site="",url=""):
         return False
 
     soup = BeautifulSoup(r.text)
-    for level1 in soup.select('.category-item'):
-        curLevel1 = level1.select('.mt')[0].text
+    for level1 in soup.select('.sFloor'):
+        curLevel1 = level1.select('.sName')[0].text
         curLevel1 = re.sub('\s', '', curLevel1)
         for level2 in level1.select('dl'):
             curLevel2 = level2.select('dt')[0].text
             curLevel2 = re.sub('\s', '', curLevel2)
-            for level3 in level2.select('dd a'):
+            for level3 in level2.select('span a'):
                 curLevel3 = re.sub('\s', '', level3.text)
                 curlUrl = level3['href']
-                retFind = re.findall(r'=(.*)$',curlUrl)
+                retFind = re.findall(r'\/\d+-(\d+)-\d+\.html',curlUrl)
                 if retFind:
                     curCatID = retFind[0]
                     if catDb.find({'catId':curCatID}).count() >0:
@@ -101,16 +101,16 @@ def getPidList4Cat():
 def getCatPageNum(url):
     r = session.get(url)
     soup = BeautifulSoup(r.text)
-    strPages = soup.find('span',attrs={'class':'fp-text'})
+    strPages = soup.select('#pageTotal')
     if strPages:
-        pages = int(strPages.text.split('/')[1])
+        pages = int(strPages[0].text)
     else:
         pages = 0
     return pages
 
 
 def getProduct(dbProductList,**cat):
-    SUFFIX = '&page=%s&sort=sort_winsdate_desc'
+    SUFFIX = 'http://list.suning.com/0-%s-%s.html'
     catUrl = cat['catUrl']
     totalPages = getCatPageNum(catUrl)
     logger.info("begin:%s\t->%s\t->%s,\ttotal %d page" %(cat['level1'],cat['level2'],cat['level3'], totalPages) )
@@ -121,23 +121,39 @@ def getProduct(dbProductList,**cat):
             break
         try:
             progressBar("getting pages",page,totalPages)
-            urlPage = catUrl + SUFFIX
+            urlPage = SUFFIX %(cat['catId'],page)   #苏宁从0开始编号
             sleepTime = random.random()*global_setting['sleep']+0.1
             time.sleep(sleepTime)
-            r = session.get(urlPage %(page+1))
-            listUls = re.findall(rule,r.text)
-            soup = BeautifulSoup(listUls[0])
+            r = session.get(urlPage)
+            if not r:
+                logger.exception('failed in getting url:%s,skip'(urlPage))
+                continue
+            soup = BeautifulSoup(r.text)
             skuLists=[]
-            for li in soup.select('.gl-item'):
+            for li in soup.select('.item.fl'):
                 product = {}
                 product.update(cat)
-                product['sku'] = li.find(attrs={"data-sku":True})['data-sku']
-                skuLists.append(product['sku'])
-                product['url'] = li.select("div > a")[0]['href']
-                product['name'] = li.select('.p-name')[0].a.em.text
-                reBrand = re.findall(r'^(.*?)[\s（]',product['name'])
+                soupItem = li.select('.sellPoint')[1]
+                product['url'] = soupItem['href']
+                strSku = re.findall(r'\/(\d+)\.html',product['url'])
+                if not strSku:
+                    continue
+                product['sku'] = strSku[0]
+
+                product['name'] = re.sub('\s','',soupItem.text)
+                reBrand = re.findall(r'^(.*?)[\s（]',soupItem.text)
                 if reBrand:
                     product['brand'] = reBrand[0]
+                searchPrice = li.select_one('.i-collect.searchBg.collectI')
+                if searchPrice:
+                    retMatch = re.findall(r'(\d+),.*?(\d+)',searchPrice['href'])
+                    strPrice = ''
+                    if retMatch:
+                        (le,ri) = retMatch[0]
+                        if le and ri:
+                            strPrice = ri + '_' + le
+                if strPrice:
+                     skuLists.append(strPrice)
                 try:
                     if dbProductList.find({u'sku':product['sku']}).count() >0:
                         if global_setting['delta']:
@@ -148,13 +164,15 @@ def getProduct(dbProductList,**cat):
                             logger.debug('%s exist,skip' %(product['sku']))
                     else:
                         dbProductList.insert(product)
+                    if global_setting['price'] and len(skuLists) >= 20:
+                        updatePrice(skuLists,dbProductList)
+                        skuLists = []
                     if global_setting['spec']:
                         getProductDetail(product['sku'],product['url'],dbProductList)
                 except Exception, e:
                     logger.exception("error in Page:%d, skuid:%s, reason:%s" %(page, product['sku'], str(e)))
                     continue
-            if global_setting['price']:
-                updatePrice(skuLists,dbProductList)
+
         except (KeyboardInterrupt, SystemExit), e:
             logger.critical("app is interrupted, finished pages:%d" %(page))
             Skip = True
@@ -189,18 +207,21 @@ def getProductDetail(sku, url, db):
     return True
 
 def updatePrice(skuLists,db):
-    priceUrl = 'http://p.3.cn/prices/mgets?skuIds=J_%s&type=1'
+    priceUrl = 'http://ds.suning.cn/ds/general/%s-9264-1--1--getDataFromDsServer2.jsonp'
     sleepTime = random.random()*global_setting['sleep']+0.1
     time.sleep(sleepTime)
-    strSku = ",J_".join(skuLists)
+    strSku = ",".join(skuLists)
     r = session.get(priceUrl %(strSku))
     if not r.text:
         return False
-    jsonPriceLists = json.loads(r.text)
-    for price in jsonPriceLists:
-        if price['p'] and price['id']:
-            skuid = price['id'].replace('J_','')
-            price = price['p']
+    reMatch = re.findall(r'(\{.*\})',r.text)
+    jsonPriceLists = {}
+    if reMatch:
+        jsonPriceLists = json.loads(reMatch[0])
+    for price in jsonPriceLists['rs']:
+        if price['price'] and price['cmmdtyCode']:
+            skuid = re.sub('^0+','',price['cmmdtyCode'])
+            price = price['price']
             curTime = datetime.datetime.utcnow()
             db.update({'sku':skuid},{'$set':{'price':price}})
             db.update({'sku':skuid},{'$push':{'timeline':{'date':curTime,'price':price}}})
@@ -275,7 +296,7 @@ if __name__ == '__main__':
     logger = setLog(global_setting['loglevel'])
     logger.debug('log level, %d' %(logger.level))
     global_setting['site'] = retPara.get('site',u'京东')
-    global_setting['targetUrl'] = retPara.get('homeUrl','http://www.jd.com/allSort.aspx')
+    global_setting['targetUrl'] = retPara.get('homeUrl','http://www.suning.com/emall/pgv_10052_10051_1_.html')
     global_setting['level1'] = retPara.get('level1',None)
     global_setting['level2'] = retPara.get('level2',None)
     global_setting['level3'] = retPara.get('level3',None)

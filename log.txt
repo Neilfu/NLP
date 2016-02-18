@@ -1782,3 +1782,182 @@ app is interrupted, finished pages:2
 Starting new HTTP connection (1): list.jd.com
 begin:图书、音像、电子书刊	->英文原版	->英语学习与考试,	total 500 page
 app is interrupted, finished pages:5
+Starting new HTTP connection (1): www.suning.com
+Starting new HTTP connection (1): www.suning.com
+Starting new HTTP connection (1): www.suning.com
+Starting new HTTP connection (1): www.suning.com
+Starting new HTTP connection (1): list.suning.com
+Starting new HTTP connection (1): list.suning.com
+Starting new HTTP connection (1): list.suning.com
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+error in Page:0, reason:not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 127, in getProduct
+    r = session.get(urlPage %(page))
+TypeError: not all arguments converted during string formatting
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Resetting dropped connection: list.suning.com
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+error in Page:0, reason:findall() takes at least 2 arguments (1 given)
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 138, in getProduct
+    strSku = re.findall(r'\/(\d+)\.html')
+TypeError: findall() takes at least 2 arguments (1 given)
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Resetting dropped connection: list.suning.com
+error in Page:2, reason:'sku'
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 141, in getProduct
+    skuLists.append(product['sku'])
+KeyError: 'sku'
+error in Page:9, reason:'sku'
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 141, in getProduct
+    skuLists.append(product['sku'])
+KeyError: 'sku'
+error in Page:10, reason:'sku'
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 141, in getProduct
+    skuLists.append(product['sku'])
+KeyError: 'sku'
+error in Page:15, reason:'sku'
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 141, in getProduct
+    skuLists.append(product['sku'])
+KeyError: 'sku'
+error in Page:23, reason:'sku'
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 141, in getProduct
+    skuLists.append(product['sku'])
+KeyError: 'sku'
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+error in Page:0, reason:No JSON object could be decoded
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 214, in updatePrice
+    jsonPriceLists = json.loads(r.text)
+  File "D:\python27\lib\json\__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "D:\python27\lib\json\decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python27\lib\json\decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Resetting dropped connection: list.suning.com
+Resetting dropped connection: ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+error in Page:0, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:1, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:2, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:3, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:4, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:5, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:6, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:7, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:8, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:9, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists > 20):
+TypeError: object of type 'bool' has no len()
+error in Page:10, reason:object of type 'bool' has no len()
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 172, in getProduct
+    if global_setting['price'] and len(skuLists) > 20:
+TypeError: object of type 'bool' has no len()
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Resetting dropped connection: ds.suning.cn
