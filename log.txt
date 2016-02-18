@@ -1774,3 +1774,11 @@ Starting new HTTP connection (1): list.yhd.com
 begin:小家电、大家电、汽车	->大家电	->平板电视,	total 0 page
 Starting new HTTP connection (1): www.yhd.com
 Starting new HTTP connection (1): list.yhd.com
+Starting new HTTP connection (1): list.jd.com
+begin:图书、音像、电子书刊	->英文原版	->商务投资,	total 498 page
+Starting new HTTP connection (1): list.jd.com
+begin:图书、音像、电子书刊	->英文原版	->商务投资,	total 498 page
+app is interrupted, finished pages:2
+Starting new HTTP connection (1): list.jd.com
+begin:图书、音像、电子书刊	->英文原版	->英语学习与考试,	total 500 page
+app is interrupted, finished pages:5

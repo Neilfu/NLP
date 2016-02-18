@@ -81,9 +81,9 @@ def getPidList4Cat():
     for cat in catDb.find({'site':global_setting['site']}).sort('lasttime',ASCENDING):
         if ctlC:
             break
-        if (global_setting['site']==cat['site']) and cat['catUrl'] and ((level1Filter and cat['level1'] in level1Filter) \
+        if (global_setting['site']==cat['site']) and cat['catUrl'] and (global_setting['all'] or (level1Filter and cat['level1'] in level1Filter) \
             or (level2Filter and cat['level2'] in level2Filter) \
-            or level3Filter and cat['level3']  in level3Filter):
+            or (level3Filter and cat['level3']  in level3Filter)):
             #产品的类别属性
             CATLIST = ('catId','catUrl','site','level1','level2','level3')
             paraCat = {}
@@ -122,7 +122,7 @@ def getProduct(dbProductList,**cat):
         try:
             progressBar("getting pages",page,totalPages)
             urlPage = catUrl + SUFFIX
-            sleepTime = random.romdom()*global_setting['sleep']+0.1
+            sleepTime = random.random()*global_setting['sleep']+0.1
             time.sleep(sleepTime)
             r = session.get(urlPage %(page+1))
             listUls = re.findall(rule,r.text)
@@ -169,7 +169,7 @@ def getProductDetail(sku, url, db):
     if not url:
         return False
     productDetail = {}
-    sleepTime = random.romdom()*global_setting['sleep']+0.1
+    sleepTime = random.random()*global_setting['sleep']+0.1
     time.sleep(sleepTime)
     r = session.get(url)
     try:
@@ -190,7 +190,7 @@ def getProductDetail(sku, url, db):
 
 def updatePrice(skuLists,db):
     priceUrl = 'http://p.3.cn/prices/mgets?skuIds=J_%s&type=1'
-    sleepTime = random.romdom()*global_setting['sleep']+0.1
+    sleepTime = random.random()*global_setting['sleep']+0.1
     time.sleep(sleepTime)
     strSku = ",J_".join(skuLists)
     r = session.get(priceUrl %(strSku))
@@ -208,7 +208,7 @@ def updatePrice(skuLists,db):
 
 def parseCommandLine():
     para = {}
-    options,args = getopt.getopt(sys.argv[1:],"h",['site=', 'level1=', 'level2=', 'level3=', 'host=', 'port=','sleep=', 'database=','productTable=','catTable=','pagesize=', 'hasPrice','batchUpdate', 'hasSpec','delta', 'help','catUpdate'])
+    options,args = getopt.getopt(sys.argv[1:],"h",['site=', 'level1=', 'level2=', 'level3=', 'host=', 'loglevel=','port=','sleep=', 'database=','productTable=','catTable=','pagesize=', 'hasPrice','all','batchUpdate', 'hasSpec','delta', 'help','catUpdate'])
     for opt, value in options:
         if opt in ['--level1','--level2','--level3']:
             strKey = re.sub('-','',opt)
@@ -216,10 +216,10 @@ def parseCommandLine():
         elif opt in ['--site','--database','--catTable','--productTable']:
             strKey = re.sub('-','',opt)
             para[strKey] = value.decode('gb2312')
-        elif opt in ['--host','--port','--pagesize','--sleep']:
+        elif opt in ['--host','--port','--pagesize','--sleep','--loglevel']:
             strKey = re.sub('-','',opt)
             para[strKey] = value
-        elif opt in ['--hasPrice','--hasSpec','--delta','--batchUpdate','--catUpdate']:
+        elif opt in ['--hasPrice','--hasSpec','--delta','--batchUpdate','--catUpdate','--all']:
             strKey = re.sub('-','',opt)
             para[strKey] = True
         if opt in ['-h','--help']:
@@ -262,16 +262,18 @@ def getUpdateCat():
     return retCat
 
 def usage():
-    print "Usage: python getCategory.py [--help] [--site] [--hasPrice] [--hasSpec] [--homeUrl]  [--host], [--port] [--sleep] [--database] [--productTable] [--catTable] [--level1] [--level2] [--level3] [--delta] [--batchUpdate] [--catUpdate]\n"
+    print "Usage: python getCategory.py [--help] [--site] [--hasPrice] [--hasSpec] [--loglevel] [--homeUrl]  [--host] [--sleep] [--port] [--sleep] [--database] [--productTable] [--catTable] [--level1] [--level2] [--level3] [--delta] [--batchUpdate] [--catUpdate]\n"
 
 global_setting = {}
 global session
 global logger
 if __name__ == '__main__':
-    logger = setLog('INFO')
-    logger.debug('log level, %d' %(logger.level))
+
     session = requests.Session()
     retPara = parseCommandLine()
+    global_setting['loglevel'] = retPara.get('loglevel','INFO')
+    logger = setLog(global_setting['loglevel'])
+    logger.debug('log level, %d' %(logger.level))
     global_setting['site'] = retPara.get('site',u'京东')
     global_setting['targetUrl'] = retPara.get('homeUrl','http://www.jd.com/allSort.aspx')
     global_setting['level1'] = retPara.get('level1',None)
@@ -289,6 +291,7 @@ if __name__ == '__main__':
     global_setting['batchUpdate'] = retPara.get('batchUpdate',False)
     global_setting['catUpdate'] = retPara.get('catUpdate',False)
     global_setting['sleep'] = retPara.get('sleep',0.5)
+    global_setting['all'] = retPara.get('all',False)
     #import pdb;pdb.set_trace()
     if global_setting['catUpdate']:
         getCategoryUrl(site=global_setting['site'],url=global_setting['targetUrl'])
