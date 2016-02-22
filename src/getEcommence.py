@@ -99,12 +99,14 @@ def getPidList4Cat():
             catDb.update({'catId':cat['catId']},{'$push':{'timeline':{'lasttime':lastFreshDate,'count':catCount}}})
 
 def getCatPageNum(url):
-    r = session.get(url)
-    soup = BeautifulSoup(r.text)
-    strPages = soup.find('span',attrs={'class':'fp-text'})
-    if strPages:
-        pages = int(strPages.text.split('/')[1])
-    else:
+    try:
+        r = session.get(url)
+        soup = BeautifulSoup(r.text)
+        strPages = soup.find('span',attrs={'class':'fp-text'})
+        if strPages:
+            pages = int(strPages.text.split('/')[1])
+    except Exception,e:
+        logger.exception('error in getting categoy page num(url:%s),skip,reason:%s' %(url, str(e)))
         pages = 0
     return pages
 

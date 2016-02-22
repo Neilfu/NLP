@@ -1961,3 +1961,139 @@ Starting new HTTP connection (1): list.suning.com
 begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
 Starting new HTTP connection (1): ds.suning.cn
 Resetting dropped connection: ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+error in Page:0, skuid:139319514, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:133092070, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:140646304, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:139631502, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:123192521, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:137019848, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:137811107, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:133780102, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:137013757, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:137723078, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:140798521, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:127833972, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:129747092, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:104329194, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:134547812, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:134175175, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+error in Page:0, skuid:133174389, reason:string indices must be integers
+Traceback (most recent call last):
+  File "E:/git/NLP/src/getEcommence_suning.py", line 174, in getProduct
+    updatePrice(skuLists,dbProductList)
+  File "E:/git/NLP/src/getEcommence_suning.py", line 228, in updatePrice
+    if price['price'] and price['cmmdtyCode']:
+TypeError: string indices must be integers
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Starting new HTTP connection (1): list.suning.com
+begin:手机/数码/配件	->手机通讯	->手机,	total 100 page
+Starting new HTTP connection (1): ds.suning.cn
+Resetting dropped connection: ds.suning.cn
+Resetting dropped connection: list.suning.com
+Resetting dropped connection: list.suning.com
+Resetting dropped connection: ds.suning.cn
+Resetting dropped connection: list.suning.com
+Resetting dropped connection: ds.suning.cn
