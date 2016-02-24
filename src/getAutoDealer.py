@@ -46,18 +46,24 @@ def openTable(tableName=''):
 
 def parseCommandLine():
     para = {}
-    options,args = getopt.getopt(sys.argv[1:],"h",['site=', 'level1=', 'level2=', 'level3=','style','dump', 'dealer', 'city', 'host=', 'loglevel=','port=','sleep=', 'database=','productTable=','catTable=','pagesize=', 'hasPrice','all','batchUpdate', 'hasSpec','delta', 'help','catUpdate'])
+    options,args = getopt.getopt(sys.argv[1:],"h",['site=', 'procode=', 'level2=', 'level3=','style','dump','geo', 'dealer', 'city', 'host=', 'loglevel=','port=','sleep=', 'database=','productTable=','catTable=','pagesize=', 'hasPrice','all','batchUpdate', 'hasSpec','delta', 'help','catUpdate'])
     for opt, value in options:
-        if opt in ['--level1','--level2','--level3']:
+        if opt in ['--procode']:
             strKey = re.sub('-','',opt)
-            para[strKey] = value.decode('gb2312').split(',')
+            retMatch = re.findall(r'(\d+)\.\.(\d+)',value)
+            if retMatch:
+                (left,right) = retMatch[0]
+                para[strKey] = range(int(left),int(right)+1)
+            else:
+                strPara = value.split(',')
+                para[strKey] = strPara
         elif opt in ['--site','--database','--catTable','--productTable']:
             strKey = re.sub('-','',opt)
             para[strKey] = value.decode('gb2312')
         elif opt in ['--host','--port','--pagesize','--sleep','--loglevel']:
             strKey = re.sub('-','',opt)
             para[strKey] = value
-        elif opt in ['--style','--dump', '--dealer', '--city','--all']:
+        elif opt in ['--style','--dump', '--dealer', '--city','--all','--geo']:
             strKey = re.sub('-','',opt)
             para[strKey] = True
         if opt in ['-h','--help']:
@@ -66,7 +72,7 @@ def parseCommandLine():
     return para
 
 def usage():
-    print "Usage: python getCategory.py [--help] [--site] [--dump] [--dealer] [--city] [--homeUrl]  [--host] [--sleep] [--port] [--sleep] [--database] [--productTable] [--catTable] [--level1] [--level2] [--level3] [--delta] [--batchUpdate] [--catUpdate]\n"
+    print "Usage: python getCategory.py [--help] [--site] [--dump] [--geo] [--dealer] [--city] [--homeUrl]  [--host] [--sleep] [--port] [--sleep] [--database] [--productTable] [--catTable] [--level1] [--level2] [--level3] [--delta] [--batchUpdate] [--catUpdate]\n"
 
 def getStyle(path=''):
     styleDb = openTable(tableName=global_setting['styledb'])
@@ -77,7 +83,7 @@ def getStyle(path=''):
         if id == 'id':
             continue
         brand = re.sub(r'[\"\s]','',brand)
-        model = re.sub(r';\"\s]','',model)
+        model = re.sub(r'[\"\s]','',model)
         style = re.sub(r'[\"\s]','',style)
         stylecode = re.findall(r'\/m(\d+)\/\"',url)
         record = {"stylecode":stylecode[0], "name":style,"brand":brand,"model":model}
@@ -109,13 +115,21 @@ def getDealers():
     styleDb = openTable(tableName=global_setting['styledb'])
     dearDb = openTable(tableName=global_setting['dealerdb'])
     cityLen = cityDb.find().count()
-    for style in styleDb.find():
-        logger.info('begin %s:%s' %(style['model'],style['name']))
-        count = 0
-        for city in cityDb.find():
-            progressBar("progress",count,cityLen)
-            count = count + 1
+    styleLen =styleDb.find().count()
+    cityCount = 1
+    for city in cityDb.find().sort('procode',ASCENDING):
+        if city['procode'] not in global_setting['procode']:
+            continue
+        logger.info('begin %s(%s):%s(%s),(%d/%d)' %(city['proname'],city['procode'],city['cityname'],city['citycode'],cityCount,cityLen))
+        cityCount = cityCount + 1
+        styleCount = 1
+        for style in styleDb.find():
+            progressBar("progress",styleCount,styleLen)
+            styleCount = styleCount + 1
             targetUrl = baseUrl %(style['stylecode'],city['citycode'])
+            if dearDb.find({'styleid':int(style['stylecode']),'city':city['cityname']}).count() >0:
+                logger.info('style:%s,city:%s dealers already exists,skip' %(style['stylecode'],city['cityname']))
+                continue
             try:
                 sleepTime = random.random()*0.3+0.1
                 time.sleep(sleepTime)
@@ -135,18 +149,51 @@ def dumpDealerDb(path='./dealerlist.csv'):
     WFILE = open(path,'w')
     #fieldMap = {'styleid':u'车款ID','stylename':u'车款名称','brand':u'品牌名称','model':u'车型','province':u'省份','city':u'城市','dealerid':u'经销商ID','addr':u'经销商地址','telephone':u'联系电话'}
     fieldList = ('styleid','stylename','brand','model','province','city','dealerid','addr','telephone')
-    fileHeader = (u'车款ID',u'车款名称',u'品牌名称',u'车型',u'省份',u'城市',u'经销商ID',u'经销商地址',u'联系电话')
+    fileHeader = (u'车款ID',u'车款名称',u'品牌名称',u'车型',u'省份',u'城市',u'经销商ID',u'经销商地址',u'联系电话',u"经度",u"纬度")
     #import pdb;pdb.set_trace()
     WFILE.write('\t'.join(fileHeader).encode('utf-8')+'\n')
-    for dealer in dealearDb.find().sort('styleid',ASCENDING):
+    mapLocation = getLocationMap()
+    for dealer in dealearDb.find():
         record=[]
         for field in fieldList:
             if field in [u'styleid',u'dealerid']:
                 record.append(str(dealer[field]))
             else:
                 record.append(dealer[field].encode('utf-8'))
+        location = mapLocation.get(dealer['dealerid'],False)
+        if not location:
+            (lon,lat) = ('','')
+        else:
+            (lon,lat) = (str(location[0]),str(location[1]))
+        record.extend((lon,lat))
         WFILE.write('\t'.join(record)+'\n')
     WFILE.close()
+
+def getLocationMap():
+    retMap = {}
+    dealearGeoDb = openTable(tableName=global_setting['dealerGeodb'])
+    for dealer in dealearGeoDb.find():
+        retMap.update({dealer['dealerid']:[dealer['lon'],dealer['lat']]})
+    return retMap
+
+
+def getDealerLocation():
+    baseUrl = "http://dealer.bitauto.com/VendorMap/GoogleMap.aspx?dID=%d&S=S&W=498&H=385&Z=12"
+    dealearDb = openTable(tableName=global_setting['dealerdb'])
+    dealearGeoDb = openTable(tableName=global_setting['dealerGeodb'])
+    for dealerid in dealearDb.distinct('dealerid'):
+        if dealearGeoDb.find({'dealerid':dealerid}).count() > 0:
+            logger.info('dealer:%d location already exists,skip' %(dealerid))
+            continue
+        sleepTime = random.random()*0.3+0.1
+        time.sleep(sleepTime)
+        r = session.get(baseUrl %(dealerid))
+        if not r:
+            continue
+        retMatch = re.findall(r'AddData\((.*?),(.*?), \'(.*?)\'',r.text)
+        if retMatch:
+            (lat,lon,name) = retMatch[0]
+            dealearGeoDb.insert({'dealerid':dealerid,'dealername':name,'lon':lon,'lat':lat})
 
 
 global_setting = {}
@@ -165,10 +212,13 @@ if __name__ == '__main__':
     global_setting['citydb'] = retPara.get('citydb','citydb')
     global_setting['styledb'] = retPara.get('styledb','styledb')
     global_setting['dealerdb'] = retPara.get('dealerdb','dealerdb')
+    global_setting['dealerGeodb'] = retPara.get('dealerGeodb','dealerGeodb')
     global_setting['city'] = retPara.get('city',False)
     global_setting['style'] = retPara.get('style',False)
     global_setting['dealer'] = retPara.get('dealer',False)
+    global_setting['geo'] = retPara.get('geo',False)
     global_setting['dump'] = retPara.get('dump',True)
+    global_setting['procode'] = retPara.get('procode',range(1,32))
     #import pdb;pdb.set_trace()
     if global_setting['style']:
         listStyle = getStyle('./bit_auto.csv')
@@ -176,6 +226,8 @@ if __name__ == '__main__':
         cities = getCitiesCode()
     if global_setting['dealer']:
         cities = getDealers()
+    #if global_setting['geo']:
+    #    getDealerLocation()
     if global_setting['dump']:
         dumpDealerDb()
 
