@@ -283,7 +283,7 @@ if __name__ == '__main__':
     global_setting['delta'] = retPara.get('delta',False)
     global_setting['host'] = retPara.get('host','10.66.66.12')
     global_setting['port'] = retPara.get('port','27017')
-    global_setting['database'] = retPara.get('database','productKB')
+    global_setting['database'] = retPara.get('database','JD')
     global_setting['catTable'] = retPara.get('catTable','catdb')
     global_setting['productTable'] = retPara.get('productTable','productdb')
     global_setting['pagesize'] = retPara.get('pagesize',60)
