@@ -232,6 +232,7 @@ def parseCommandLine():
 def updateBactch():
     dbProductList = openTable(tableName=global_setting['productTable'])
     updateCatids = getUpdateCat()
+    import pdb;pdb.set_trace()
     for catid,catname in updateCatids:
         skuList = []
         logger.info('price updating to categary %s(%s) '%(catname,catid))

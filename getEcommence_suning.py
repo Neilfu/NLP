@@ -98,19 +98,21 @@ def getPidList4Cat():
             catDb.update({'catId':cat['catId']},{'$set':{'lasttime':lastFreshDate}})
             catDb.update({'catId':cat['catId']},{'$push':{'timeline':{'lasttime':lastFreshDate,'count':catCount}}})
 
+
 def getCatPageNum(url):
-    r = session.get(url)
-    soup = BeautifulSoup(r.text)
-    retSoup = soup.select('#pageTotal')
-    if retSoup:
-        pages = int(retSoup[0].text)
-    else:
-        retSoup = soup.select('.pageCount')
+    try:
+        r = session.get(url)
+        soup = BeautifulSoup(r.text)
+        retSoup = soup.select('#pageTotal')
         if retSoup:
+            pages = int(retSoup[0].text)
+        else:
+            retSoup = soup.select('.pageCount')
             (tmp,strPage) = retSoup[0].text.split('/')
             pages = int(strPage)
-        else:
-            pages = 0
+    except Exception, e:
+        logger.Exception('error in getting categoy page num(url:%s),skip,reason:%s' %(url, str(e)))
+        pages = -1
     return pages
 
 
@@ -301,7 +303,7 @@ if __name__ == '__main__':
     global_setting['loglevel'] = retPara.get('loglevel','INFO')
     logger = setLog(global_setting['loglevel'])
     logger.debug('log level, %d' %(logger.level))
-    global_setting['site'] = retPara.get('site',u'京东')
+    global_setting['site'] = retPara.get('site',u'苏宁')
     global_setting['targetUrl'] = retPara.get('homeUrl','http://www.suning.com/emall/pgv_10052_10051_1_.html')
     global_setting['level1'] = retPara.get('level1',None)
     global_setting['level2'] = retPara.get('level2',None)
@@ -309,9 +311,9 @@ if __name__ == '__main__':
     global_setting['spec'] = retPara.get('hasSpec',False)
     global_setting['price'] = retPara.get('hasPrice',False)
     global_setting['delta'] = retPara.get('delta',False)
-    global_setting['host'] = retPara.get('host','127.0.0.1')
+    global_setting['host'] = retPara.get('host','10.66.66.12')
     global_setting['port'] = retPara.get('port','27017')
-    global_setting['database'] = retPara.get('database','productKB')
+    global_setting['database'] = retPara.get('database','suning')
     global_setting['catTable'] = retPara.get('catTable','catdb')
     global_setting['productTable'] = retPara.get('productTable','productdb')
     global_setting['pagesize'] = retPara.get('pagesize',60)
